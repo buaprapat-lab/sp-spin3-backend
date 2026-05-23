@@ -24,12 +24,7 @@ const menuSchema = new mongoose.Schema(
       enum: ["main", "side", "dessert", "drink"],
       require: true,
     },
-    avaiable_count: {
-      type: String,
-      default: true,
-      default: 0
-    },
-    avaiable_count: {
+    active_status: {
       type: Boolean,
       default: true,
     },
