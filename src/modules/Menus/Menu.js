@@ -24,6 +24,10 @@ const menuSchema = new mongoose.Schema(
       enum: ["main", "side", "dessert", "drink"],
       require: true,
     },
+    image_url: {
+      type: String,
+      default: null,
+    },
     active_status: {
       type: Boolean,
       default: true,
