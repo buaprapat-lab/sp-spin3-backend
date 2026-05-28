@@ -1,25 +1,26 @@
 import mongoose from 'mongoose';
-
-const orderItemSchema = new mongoose.Schema({
-  menuId: { 
-    type: mongoose.Schema.Types.ObjectId, 
-    ref: 'Menu'
-  },
-  name: { type: String, required: true },
-  quantity: { type: Number, required: true },
-  price: { type: Number, required: true },
-  image: { type: String },
-  cookingTime: { 
-    type: Number, 
-    description: 'Cooking time in seconds from menu'
-  },
-  status: { 
-    type: String, 
-    enum: ['InKitchen', 'Cook', 'finished', 'cancel'], 
-    default: 'InKitchen' 
-  },
-  orderTime: { type: Date, default: Date.now }
-});
+import { OrderItem } from '../orderItems/OrderItem.js';
+ 
+// const orderItemSchema = new mongoose.Schema({
+//   menuId: { 
+//     type: mongoose.Schema.Types.ObjectId, 
+//     ref: 'Menu'
+//   },
+//   name: { type: String, required: true },
+//   quantity: { type: Number, required: true },
+//   price: { type: Number, required: true },
+//   image: { type: String },
+//   cookingTime: { 
+//     type: Number, 
+//     description: 'Cooking time in seconds from menu'
+//   },
+//   status: { 
+//     type: String, 
+//     enum: ['InKitchen', 'Cook', 'finished', 'cancel'], 
+//     default: 'InKitchen' 
+//   },
+//   orderTime: { type: Date, default: Date.now }
+// });
 
 const orderSchema = new mongoose.Schema({
   type: { type: String, enum: ['delivery', 'Onsite'], required: true },
@@ -29,7 +30,7 @@ const orderSchema = new mongoose.Schema({
     address: { type: String },
     note: { type: String }
   },
-  orderList: [orderItemSchema],
+  orderList: [OrderItem.schema],
   status: { 
     type: String, 
     enum: ['pending', 'preparing', 'completed', 'cancelled'], 
