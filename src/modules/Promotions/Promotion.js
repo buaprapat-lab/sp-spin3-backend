@@ -7,9 +7,9 @@ const promotionSchema = new mongoose.Schema(
     value: { type: Number, required: true },
     date_from: { type: Date, required: true },
     date_to: { type: Date, required: true },
-    active_status: { Boolean, default: true },
+    active_status: { type: Boolean, default: true },
   },
 
   { timestamps: true },
 );
-export const Promotion = mongoose.model("Promotion", userSchema);
+export const Promotion = mongoose.model("Promotion", promotionSchema);

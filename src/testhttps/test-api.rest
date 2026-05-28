@@ -1,9 +1,9 @@
 
 ###Get Menu
-GET http://localhost:3000/api/v1/menu
+GET http://localhost:5000/api/v1/menu
 
 ###Create Menu
-POST http://localhost:3000/api/v1/menu
+POST http://localhost:5000/api/v1/menu
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 
 ###update Menu
-PUT  http://localhost:3000/api/v1/menu/
+PUT  http://localhost:5000/api/v1/menu/
 Content-Type: application/json
 
 {
@@ -33,6 +33,24 @@ Content-Type: application/json
 
 {
     "name": "test menu",
+    "price": 100,
+    "quantity": 10,
+    "category": "main",
+    "active_status": true
+}
+
+
+
+
+###Get promotion
+GET http://localhost:3000/api/v1/promotion
+
+###Create promotion
+POST http://localhost:3000/api/v1/promotion
+Content-Type: application/json
+
+{
+    "name": "test promotion",
     "price": 100,
     "quantity": 10,
     "category": "main",
