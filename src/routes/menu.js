@@ -6,7 +6,7 @@ import {
   createMenu,
   updateMenu,
   deleteMenu,
-} from '../modules/Menus/menuController.js';
+} from '../modules/menus/menuController.js';
 import { isAuth, isEligible } from '../middleware/auth.js';
 
 export const router = Router();
