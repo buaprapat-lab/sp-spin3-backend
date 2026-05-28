@@ -1,0 +1,279 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "fe-title",
+      "type": "text",
+      "x": 100,
+      "y": 50,
+      "width": 200,
+      "height": 40,
+      "text": "FRONTEND (React)",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "strokeColor": "#e4002b"
+    },
+    {
+      "id": "fe-comp",
+      "type": "rectangle",
+      "x": 100,
+      "y": 120,
+      "width": 220,
+      "height": 100,
+      "backgroundColor": "#fff5f5",
+      "strokeColor": "#e4002b",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "fe-comp-text",
+      "type": "text",
+      "x": 110,
+      "y": 130,
+      "width": 200,
+      "height": 80,
+      "text": "VIEW LAYER\n(App.jsx -> Pages\n-> Components)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "fe-comp"
+    },
+    {
+      "id": "fe-context",
+      "type": "rectangle",
+      "x": 100,
+      "y": 260,
+      "width": 220,
+      "height": 100,
+      "backgroundColor": "#fff5f5",
+      "strokeColor": "#e4002b",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "fe-context-text",
+      "type": "text",
+      "x": 110,
+      "y": 270,
+      "width": 200,
+      "height": 80,
+      "text": "STATE LAYER\n(ShopContext,\nUserContext,\nPaymentContext)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "fe-context"
+    },
+    {
+      "id": "fe-service",
+      "type": "rectangle",
+      "x": 100,
+      "y": 400,
+      "width": 220,
+      "height": 100,
+      "backgroundColor": "#fff5f5",
+      "strokeColor": "#e4002b",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "fe-service-text",
+      "type": "text",
+      "x": 110,
+      "y": 410,
+      "width": 200,
+      "height": 80,
+      "text": "API SERVICES\n(orderService,\nauthService,\napi.js wrapper)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "fe-service"
+    },
+    {
+      "id": "be-title",
+      "type": "text",
+      "x": 480,
+      "y": 50,
+      "width": 200,
+      "height": 40,
+      "text": "BACKEND (Express)",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "strokeColor": "#242424"
+    },
+    {
+      "id": "be-route",
+      "type": "rectangle",
+      "x": 480,
+      "y": 120,
+      "width": 220,
+      "height": 100,
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#242424",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "be-route-text",
+      "type": "text",
+      "x": 490,
+      "y": 130,
+      "width": 200,
+      "height": 80,
+      "text": "ROUTING LAYER\n(index.js ->\nFeature Routes)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "be-route"
+    },
+    {
+      "id": "be-middleware",
+      "type": "rectangle",
+      "x": 480,
+      "y": 240,
+      "width": 220,
+      "height": 60,
+      "backgroundColor": "#fff4ce",
+      "strokeColor": "#856404",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "be-middleware-text",
+      "type": "text",
+      "x": 490,
+      "y": 250,
+      "width": 200,
+      "height": 40,
+      "text": "MIDDLEWARE\n(isAuth, isEligible)",
+      "fontSize": 16,
+      "textAlign": "center",
+      "containerId": "be-middleware"
+    },
+    {
+      "id": "be-ctrl",
+      "type": "rectangle",
+      "x": 480,
+      "y": 320,
+      "width": 220,
+      "height": 80,
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#242424",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "be-ctrl-text",
+      "type": "text",
+      "x": 490,
+      "y": 330,
+      "width": 200,
+      "height": 60,
+      "text": "CONTROLLERS\n(Business Logic)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "be-ctrl"
+    },
+    {
+      "id": "be-model",
+      "type": "rectangle",
+      "x": 480,
+      "y": 420,
+      "width": 220,
+      "height": 80,
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#242424",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "be-model-text",
+      "type": "text",
+      "x": 490,
+      "y": 430,
+      "width": 200,
+      "height": 60,
+      "text": "MODELS\n(Mongoose Schemas)",
+      "fontSize": 18,
+      "textAlign": "center",
+      "containerId": "be-model"
+    },
+    {
+      "id": "db-title",
+      "type": "text",
+      "x": 800,
+      "y": 420,
+      "width": 150,
+      "height": 60,
+      "text": "DATABASE\n(MongoDB Atlas)",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "strokeColor": "#47A248",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-fe-1",
+      "type": "arrow",
+      "x": 210,
+      "y": 220,
+      "width": 0,
+      "height": 40,
+      "strokeColor": "#e4002b",
+      "points": [[0, 0], [0, 40]]
+    },
+    {
+      "id": "arrow-fe-2",
+      "type": "arrow",
+      "x": 210,
+      "y": 360,
+      "width": 0,
+      "height": 40,
+      "strokeColor": "#e4002b",
+      "points": [[0, 0], [0, 40]]
+    },
+    {
+      "id": "arrow-net",
+      "type": "arrow",
+      "x": 320,
+      "y": 450,
+      "width": 160,
+      "height": -280,
+      "strokeColor": "#DC5F00",
+      "points": [[0, 0], [80, 0], [80, -280], [160, -280]],
+      "text": "FETCH (JWT in Header)"
+    },
+    {
+      "id": "arrow-be-1",
+      "type": "arrow",
+      "x": 590,
+      "y": 220,
+      "width": 0,
+      "height": 20,
+      "strokeColor": "#242424",
+      "points": [[0, 0], [0, 20]]
+    },
+    {
+      "id": "arrow-be-2",
+      "type": "arrow",
+      "x": 590,
+      "y": 300,
+      "width": 0,
+      "height": 20,
+      "strokeColor": "#242424",
+      "points": [[0, 0], [0, 20]]
+    },
+    {
+      "id": "arrow-be-3",
+      "type": "arrow",
+      "x": 590,
+      "y": 400,
+      "width": 0,
+      "height": 20,
+      "strokeColor": "#242424",
+      "points": [[0, 0], [0, 20]]
+    },
+    {
+      "id": "arrow-db",
+      "type": "arrow",
+      "x": 700,
+      "y": 460,
+      "width": 100,
+      "height": 0,
+      "strokeColor": "#47A248",
+      "points": [[0, 0], [100, 0]]
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

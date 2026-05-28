@@ -1,0 +1,102 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "root",
+      "type": "text",
+      "x": 400,
+      "y": 50,
+      "width": 150,
+      "height": 40,
+      "text": "PROJECT ROOT",
+      "fontSize": 24,
+      "fontFamily": 1,
+      "strokeColor": "#242424",
+      "textAlign": "center"
+    },
+    {
+      "id": "be-dir",
+      "type": "rectangle",
+      "x": 100,
+      "y": 150,
+      "width": 300,
+      "height": 450,
+      "backgroundColor": "#f8f9fa",
+      "strokeColor": "#242424",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "be-dir-text",
+      "type": "text",
+      "x": 110,
+      "y": 160,
+      "width": 280,
+      "height": 430,
+      "text": "backend/\n├── src/\n│   ├── configs/\n│   │   └── mongodb.js (DB Conn)\n│   ├── middleware/\n│   │   └── auth.js (JWT & Roles)\n│   ├── modules/\n│   │   ├── users/ (User Logic)\n│   │   ├── orders/ (Order Logic)\n│   │   └── menus/ (Menu Logic)\n│   ├── routes/\n│   │   ├── index.js (Main Router)\n│   │   └── order.js (Sub Router)\n│   └── server.js (Entry Point)\n└── .env (Secrets)",
+      "fontSize": 16,
+      "fontFamily": 3,
+      "textAlign": "left"
+    },
+    {
+      "id": "fe-dir",
+      "type": "rectangle",
+      "x": 500,
+      "y": 150,
+      "width": 300,
+      "height": 450,
+      "backgroundColor": "#fff5f5",
+      "strokeColor": "#e4002b",
+      "roundness": { "type": 3 }
+    },
+    {
+      "id": "fe-dir-text",
+      "type": "text",
+      "x": 510,
+      "y": 160,
+      "width": 280,
+      "height": 430,
+      "text": "frontend/\n├── src/\n│   ├── component/ (Atomic UI)\n│   ├── context/ (Shared Logic)\n│   │   ├── ShopProvider.jsx\n│   │   └── userContext/\n│   ├── pages/ (Route Views)\n│   ├── services/ (API Calls)\n│   │   └── orderService.js\n│   ├── utils/ (Helpers)\n│   │   └── api.js (Axios-like)\n│   └── App.jsx (Routing)\n├── owner-app/ (Dashboard)\n└── public/ (Assets)",
+      "fontSize": 16,
+      "fontFamily": 3,
+      "textAlign": "left"
+    },
+    {
+      "id": "gemini-file",
+      "type": "text",
+      "x": 400,
+      "y": 620,
+      "width": 150,
+      "height": 30,
+      "text": "GEMINI.md (Main Guide)",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#DC5F00",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-root-be",
+      "type": "arrow",
+      "x": 400,
+      "y": 90,
+      "width": -150,
+      "height": 60,
+      "strokeColor": "#242424",
+      "points": [[0, 0], [-150, 60]]
+    },
+    {
+      "id": "arrow-root-fe",
+      "type": "arrow",
+      "x": 550,
+      "y": 90,
+      "width": 150,
+      "height": 60,
+      "strokeColor": "#e4002b",
+      "points": [[0, 0], [150, 60]]
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
